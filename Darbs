@@ -1,0 +1,47 @@
+print("Ievadi a:")
+a = int(input())
+print("Ievadi b:")
+b = int(input())
+print("Ievadi c:")
+c = int(input())
+if a < b and a < c:
+ print("a ir mazaks neka b un c")
+elif b < a and b < c:
+ print("b ir mazaks neka a un c")
+else:
+ print("c ir mazaks neka a un b")
+
+
+
+garums_metros = float (input("Ievadi garumu metros:"))
+garums_centimetros = float (garums_metros*100)
+svars = int (input("Ievadi svaru:"))
+optimalais_svars = int (garums_centimetros-svars)
+if (optimalais_svars-svars>7):
+ print("Jusu svars ir nepietiekams")
+elif (svars-optimalais_svars<=7):
+ print("Jusu svars ir normals")
+else:
+ print("Jusu svars ir parak daudz")
+
+a = int(input("Ievadi cipari: "))
+if a == 0:
+  print("Nulle")
+if a == 1:
+  print("Viens")
+if a == 2:
+  print("Divi")
+if a == 3:
+  print("Trīs")
+if a == 4:
+  print("Četri")
+if a == 5:
+  print("Pieci")
+if a == 6:
+  print("Seši")
+if a == 7:
+  print("Septiņi")
+if a == 8:
+  print("Astoņi")
+if a == 9:
+  print("Deviņi")
